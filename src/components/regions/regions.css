@@ -13,6 +13,10 @@
   padding: 16px;
   border-radius: 5px;
   text-decoration: none;
+  width: 150px;
+  overflow: hidden;
+  border: none;
+  background-color: #d04378;
 }
 
 h3 {
