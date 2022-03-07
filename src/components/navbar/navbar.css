@@ -1,0 +1,8 @@
+nav {
+  display: flex;
+  background: #d04378;
+  justify-content: space-between;
+  font-weight: lighter;
+  padding: 8px;
+  color: #fff;
+}

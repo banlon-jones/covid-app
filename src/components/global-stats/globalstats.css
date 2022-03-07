@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  background: #fb5193;
+  padding: 16px;
+  gap: 50px;
+  text-align: right;
+  color: #fff;
+  justify-content: center;
+}
+
+.confirmed-case h3 {
+  margin-bottom: 2px;
+}
