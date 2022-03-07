@@ -1,32 +1,30 @@
 import React from 'react';
 import './regions.css';
-import { NavLink } from 'react-router-dom';
 import map from './images/emojione-monotone_map-of-japan.svg';
 
-const Regions = () => (
-  <div className="region-flex">
-    <div className="region">
-      <NavLink to="/stats/ex1">
-        <div>
-          <img src={map} alt="region map" />
-        </div>
-        <div>
-          <h3> Namew </h3>
-        </div>
-      </NavLink>
+const Regions = (Props) => {
+  const { regions } = Props;
+  return (
+    <div className="region-flex">
+      {
+      regions.map((item) => (
+        <button key={item.id} type="button" className="region" value={item.value}>
+          <div>
+            <div>
+              <img src={map} alt="region map" />
+            </div>
+            <div>
+              <h3>
+                {item.id}
+              </h3>
+            </div>
+          </div>
+        </button>
+      ))
+    }
     </div>
-    <div className="region">
-      <NavLink to="/stats/region">
-        <div>
-          <img src={map} alt="region map" />
-        </div>
-        <div>
-          <h3> Namew </h3>
-        </div>
-      </NavLink>
-    </div>
-  </div>
 
-);
+  );
+};
 
 export default Regions;
