@@ -1,7 +1,7 @@
 import React from 'react';
 import './regions.css';
-import map from './images/emojione-monotone_map-of-japan.svg';
 import { NavLink } from 'react-router-dom';
+import map from './images/emojione-monotone_map-of-japan.svg';
 
 const Regions = () => (
   <div className="region-flex">
