@@ -8,6 +8,7 @@ import { getRegionalStat } from '../../redux/regional-stats/regionalStats';
 const Regions = (Props) => {
   const { regions } = Props;
   const dispatch = useDispatch();
+  // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate();
   const handleClick = (e) => {
     dispatch(getRegionalStat(e.target.value));

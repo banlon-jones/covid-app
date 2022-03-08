@@ -16,6 +16,18 @@ const RegionalStats = (Props) => {
           </span>
         </li>
         <li>
+          <strong> Confirmed New Cases </strong>
+          <span>
+            {regionalStats.today_new_confirmed}
+          </span>
+        </li>
+        <li>
+          <strong> New Deaths </strong>
+          <span>
+            {regionalStats.today_new_deaths}
+          </span>
+        </li>
+        <li>
           <strong> Deaths </strong>
           <span>
             {regionalStats.today_deaths}
@@ -30,7 +42,31 @@ const RegionalStats = (Props) => {
         <li>
           <strong> Open cases </strong>
           <span>
+            {regionalStats.today_open_cases}
+          </span>
+        </li>
+        <li>
+          <strong> New Open cases </strong>
+          <span>
             {regionalStats.today_new_open_cases}
+          </span>
+        </li>
+        <li>
+          <strong> Recovered cases </strong>
+          <span>
+            {regionalStats.today_recovered}
+          </span>
+        </li>
+        <li>
+          <strong> Hospitalized cases </strong>
+          <span>
+            {regionalStats.today_total_hospitalised_patients}
+          </span>
+        </li>
+        <li>
+          <strong> tests </strong>
+          <span>
+            {regionalStats.today_tests}
           </span>
         </li>
       </ul>

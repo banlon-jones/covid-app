@@ -7,10 +7,10 @@ export const addRegionalStats = (payload) => ({
   payload,
 });
 
-// eslint-disable-next-line no-unused-vars
 export const getRegionalStat = (region) => async (dispatch) => {
   const data = await fetchRegionalStats(region);
-  dispatch(addRegionalStats(data.total));
+  // console.log(data.dates['2022-03-07'].countries.US.regions[0]);
+  dispatch(addRegionalStats(data.dates['2022-03-07'].countries.US.regions[0]));
 };
 
 const regionalStatReducer = (state = [], action) => {
