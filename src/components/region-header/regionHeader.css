@@ -9,4 +9,6 @@
 
 .confirmed-case h3 {
   margin-bottom: 2px;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
