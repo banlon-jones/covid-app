@@ -1,5 +1,6 @@
 const GLOBALSTATS = 'https://api.covid19tracking.narrativa.com/api/2022-03-07';
 const REGIONS = 'https://api.covid19tracking.narrativa.com/api/2022-03-07/country';
+const REGIONALSTATS = 'https://api.covid19tracking.narrativa.com/api/2022-03-07/country/us/region';
 
 const getData = async (url) => {
   try {
@@ -13,3 +14,5 @@ const getData = async (url) => {
 export const fetchRegions = (country = 'us') => getData(`${REGIONS}/${country}`);
 
 export const fetchGlobalStats = () => getData(GLOBALSTATS);
+
+export const fetchRegionalStats = (region) => getData(`${REGIONALSTATS}/${region}`);

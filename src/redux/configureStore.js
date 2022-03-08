@@ -5,9 +5,10 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import globalStatReducer from './global-stats/globalstats';
 import regionReducer from './regions/regions';
+import regionalStatReducer from './regional-stats/regionalStats';
 
 const reducer = combineReducers({
-  globalStatReducer, regionReducer,
+  globalStatReducer, regionReducer, regionalStatReducer,
 });
 
 const store = createStore(
