@@ -4,7 +4,7 @@ const ADD_GLOBAL_STATS = 'globalstats/ADD_STATS';
 
 // action creator
 
-const addGlobalStats = (payload) => ({
+export const addGlobalStats = (payload) => ({
   type: ADD_GLOBAL_STATS,
   payload,
 });
