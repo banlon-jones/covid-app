@@ -3,8 +3,6 @@
 web app for showing covid 19 statistics in the united states of ammerica by state as regions, 
 built using ReactJS and redux. the  data is from [Narrativa](https://covid19tracking.narrativa.com/index_en.html)
 
-In the project directory, you can run:
-
 ![app-image](./app-image.png)
 
 ## Built With 
