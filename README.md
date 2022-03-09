@@ -14,6 +14,10 @@ clone the project using the command
 
 `https://github.com/banlon-jones/covid-app.git` 
 
+## Demo
+
+https://global-covid-data.netlify.app/
+
 ### `npm start`
 
 Runs the app in the development mode.\
