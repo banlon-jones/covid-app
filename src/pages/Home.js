@@ -12,6 +12,7 @@ const Home = () => {
   useEffect(() => { dispatch(getGlobalStat()); dispatch(getRegions()); }, []);
   const globalstats = useSelector(({ globalStatReducer }) => globalStatReducer);
   const regions = useSelector(({ regionReducer }) => regionReducer);
+
   return (
     <div>
       <header>
