@@ -1,0 +1,19 @@
+.breakdown {
+  padding: 8px;
+  color: white;
+  font-weight: lighter;
+  background: #d04378;
+}
+
+ul {
+  list-style-type: none;
+  margin: 4px;
+  padding: 4px;
+  color: white;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 8px;
+}

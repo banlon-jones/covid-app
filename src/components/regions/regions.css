@@ -1,0 +1,33 @@
+.region-flex {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 16px;
+  text-align: right;
+  color: white;
+  justify-content: center;
+}
+
+.region {
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  padding: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 120px;
+  overflow: hidden;
+  border: none;
+  background-color: #d04378;
+}
+
+h3 {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.form-control {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 14%;
+}
