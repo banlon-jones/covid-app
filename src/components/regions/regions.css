@@ -24,3 +24,10 @@ h3 {
   text-decoration: none;
   margin-bottom: 4px;
 }
+
+.form-control {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 14%;
+}
